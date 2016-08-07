@@ -1,29 +1,16 @@
-.search-bar {
-	margin: 20px;
-	text-align: center;
-	input {
-		width: 75%;
-	}
+.input-group {
+	margin: 20px 0px;
 }
 
-.video-item {
-	img {
-		max-width: 64px;
+td {
+	&:first-of-type{
+		vertical-align: middle !important;
 	}
+	vertical-align: bottom !important;
+	text-align: center !important;
 }
 
-.video-detail {
-	.details {
-		margin-top: 10px;
-		padding: 10px;
-		border: 1px solid #ddd;
-		border-radius: 4px;
-	}
-}
-
-.list-group-item {
-	cursor: pointer; 
-	&:hover {
-		background-color: #eee;
-	}
+th {
+	vertical-align: middle !important;
+	text-align: center !important;
 }
