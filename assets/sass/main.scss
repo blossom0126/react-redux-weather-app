@@ -4,7 +4,8 @@
 
 td {
 	&:first-of-type{
-		vertical-align: middle !important;
+		height: 200px;
+		width: 250px;
 	}
 	vertical-align: bottom !important;
 	text-align: center !important;
@@ -14,3 +15,4 @@ th {
 	vertical-align: middle !important;
 	text-align: center !important;
 }
+

@@ -5,7 +5,8 @@ td {
   vertical-align: bottom !important;
   text-align: center !important; }
   td:first-of-type {
-    vertical-align: middle !important; }
+    height: 200px;
+    width: 250px; }
 
 th {
   vertical-align: middle !important;
